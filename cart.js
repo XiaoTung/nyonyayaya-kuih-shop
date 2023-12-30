@@ -17,235 +17,235 @@ let products = [
     {
         id: 1,
         name: 'Pulut Inti',
-        image: 'PULUT INTI.png',
+        image: 'IMAGE/PULUT INTI.png',
         price: 3.00
     },
     {
         id: 2,
         name: 'Kuih Koci',
-        image: 'KUIH KOCI.png',
+        image: 'IMAGE/KUIH KOCI.png',
         price: 3.00
     },
     {
         id: 3,
         name: 'Pulut Panggang',
-        image: 'PULUT PANGGANG.png',
+        image: 'IMAGE/PULUT PANGGANG.png',
         price: 3.00
     },
     {
         id: 4,
         name: 'Ketayap',
-        image: 'KETAYAP.png',
+        image: 'IMAGE/KETAYAP.png',
         price: 3.00
     },
     {
         id: 5,
         name: 'Kuih Kosoi',
-        image: 'KUIH KOSOI.png',
+        image: 'IMAGE/KUIH KOSOI.png',
         price: 3.00
     },
     {
         id: 6,
         name: 'Kuih Kosoi Pandan',
-        image: 'KUIH KOSOI PANDAN.png',
+        image: 'IMAGE/KUIH KOSOI PANDAN.png',
         price: 3.00
     },
     {
         id: 7,
         name: 'Mochi (Red Bean)',
-        image: 'MOCHI (RED BEAN).png',
+        image: 'IMAGE/MOCHI (RED BEAN).png',
         price: 3.00
     },
     {
         id: 8,
         name: 'Mochi (Peanut)',
-        image: 'MOCHI (PEANUT).png',
+        image: 'IMAGE/MOCHI (PEANUT).png',
         price: 3.00
     },
     {
         id: 9,
         name: 'Pattaya Lapis',
-        image: 'PATTAYA LAPIS.png',
+        image: 'IMAGE/PATTAYA LAPIS.png',
         price: 3.00
     },
     {
         id: 10,
         name: 'Kuih Lapis',
-        image: 'KUIH LAPIS.png',
+        image: 'IMAGE/KUIH LAPIS.png',
         price: 3.00
     },
     {
         id: 11,
         name: 'Sago Lapis',
-        image: 'SAGO LAPIS.png',
+        image: 'IMAGE/SAGO LAPIS.png',
         price: 3.00
     },
     {
         id: 12,
         name: 'Rose Sago',
-        image: 'ROSE SAGO.png',
+        image: 'IMAGE/ROSE SAGO.png',
         price: 3.00
     },
     {
         id: 13,
         name: 'Kuih Talam',
-        image: 'KUIH TALAM.png',
+        image: 'IMAGE/KUIH TALAM.png',
         price: 3.00
     },
     {
         id: 14,
         name: 'Seri Muka (Green White)',
-        image: 'SERI MUKA (GRN WHI).png',
+        image: 'IMAGE/SERI MUKA (GRN WHI).png',
         price: 3.00
     },
     {
         id: 15,
         name: 'Seri Muka (Green Blue)',
-        image: 'SERI MUKA (GRN BLU).png',
+        image: 'IMAGE/SERI MUKA (GRN BLU).png',
         price: 3.00
     },
     {
         id: 16,
         name: 'Seri Muka (Yellow Blue)',
-        image: 'SERI MUKA (YLW BLU).png',
+        image: 'IMAGE/SERI MUKA (YLW BLU).png',
         price: 3.00
     },
     {
         id: 17,
         name: 'Tapioca Cake',
-        image: 'TAPIOCA CAKE.png',
+        image: 'IMAGE/TAPIOCA CAKE.png',
         price: 3.00
     },
     {
         id: 18,
         name: 'Bingka Ubi',
-        image: 'BINGKA UBI.png',
+        image: 'IMAGE/BINGKA UBI.png',
         price: 3.00
     },
     {
         id: 19,
         name: 'Pulut Tai-tai',
-        image: 'PULUT TAI-TAI.png',
+        image: 'IMAGE/PULUT TAI-TAI.png',
         price: 3.00
     },
     {
         id: 20,
         name: 'Seri Manja',
-        image: 'SERI MANJA.png',
+        image: 'IMAGE/SERI MANJA.png',
         price: 3.00
     },
     {
         id: 21,
         name: 'Lapis Ubi',
-        image: 'LAPIS UBI.png',
+        image: 'IMAGE/LAPIS UBI.png',
         price: 3.00
     },
     {
         id: 22,
         name: 'Kuih Kacang Merah',
-        image: 'KUIH KACANG MERAH.png',
+        image: 'IMAGE/KUIH KACANG MERAH.png',
         price: 3.00
     },
     {
         id: 23,
         name: 'Talam Keladi',
-        image: 'TALAM KELADI.png',
+        image: 'IMAGE/TALAM KELADI.png',
         price: 3.00
     },
     {
         id: 24,
         name: 'Kuih Jagung',
-        image: 'KUIH JAGUNG.png',
+        image: 'IMAGE/KUIH JAGUNG.png',
         price: 3.00
     },
     {
         id: 25,
         name: 'Angku (Mini)',
-        image: 'ANGKU (M).png',
+        image: 'IMAGE/ANGKU (M).png',
         price: 3.00
     },
     {
         id: 26,
         name: 'Pandan Ku (Mini)',
-        image: 'PANDAN KU (M).png',
+        image: 'IMAGE/PANDAN KU (M).png',
         price: 3.00
     },
     {
         id: 27,
         name: 'Yellow Ku (Mini)',
-        image: 'YELLOW KU (M).png',
+        image: 'IMAGE/YELLOW KU (M).png',
         price: 3.00
     },
     {
         id: 28,
         name: 'Purple Ku (Mini)',
-        image: 'PURPLE KU (M).png',
+        image: 'IMAGE/PURPLE KU (M).png',
         price: 3.00
     },
     {
         id: 29,
         name: 'Angku (Large)',
-        image: 'ANGKU (L).png',
+        image: 'IMAGE/ANGKU (L).png',
         price: 3.00
     },
     {
         id: 30,
         name: 'Pandan Ku (Large)',
-        image: 'PANDAN KU (L).png',
+        image: 'IMAGE/PANDAN KU (L).png',
         price: 3.00
     },
     {
         id: 31,
         name: 'Rice Puddling',
-        image: 'RICE PUDDLING.png',
+        image: 'IMAGE/RICE PUDDLING.png',
         price: 3.00
     },
     {
         id: 32,
         name: 'Yam Cake',
-        image: 'YAM CAKE.png',
+        image: 'IMAGE/YAM CAKE.png',
         price: 3.00
     },
     {
         id: 33,
         name: 'Ma Lai Ko',
-        image: 'MA LAI KO.png',
+        image: 'IMAGE/MA LAI KO.png',
         price: 3.00
     },
     {
         id: 34,
         name: 'Onde-onde',
-        image: 'ONDE-ONDE.png',
+        image: 'IMAGE/ONDE-ONDE.png',
         price: 3.00
     },
     {
         id: 35,
         name: 'Homemade Kaya',
-        image: 'KAYA.png',
+        image: 'IMAGE/KAYA.png',
         price: 5.00
     },
     {
         id: 36,
         name: 'Party Set (Set A)',
-        image: 'PARTY SET A.png',
+        image: 'IMAGE/PARTY SET A.png',
         price: 20.00
     },
     {
         id: 37,
         name: 'Party Set (Set B)',
-        image: 'PARTY SET B.png',
+        image: 'IMAGE/PARTY SET B.png',
         price: 20.00
     },
     {
         id: 38,
         name: 'Party Set (Vegetarian A)',
-        image: 'PARTY SET C.png',
+        image: 'IMAGE/PARTY SET C.png',
         price: 20.00
     },
     {
         id: 39,
         name: 'Party Set (Vegetarian B)',
-        image: 'PARTY SET D.png',
+        image: 'IMAGE/PARTY SET D.png',
         price: 20.00
     }
 ];
