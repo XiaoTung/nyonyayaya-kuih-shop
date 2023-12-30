@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <!-- remix icon cdn link -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.css" rel="stylesheet">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>NyoNyaYaYa Shopping Cart</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Your Shopping Cart</h1>
+            <div class="shopping">
+                <img src="shopping.svg" alt="">
+                <span class="quantity">0</span>
+            </div>
+        </header>
+        <div class="list"></div>
+    </div>
+    <div class="cart">
+        <h1>Cart</h1>
+        <ul class="listCart"></ul>
+        <div class="checkOut">
+            <div class="total">0</div>
+            <div class="closeShopping">Close</div>
+        </div>
+    </div>
+
+<!-- cart section starts -->
+
+    <section class="cart" id="cart">
+
+        <div class="heading">
+            <span>Our Menu</span>
+            <h3>Our Special Dishes</h3>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="PULUT INTI.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Pulut Inti</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="KUIH KOCI.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Kuih Koci</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="PULUT PANGGANG.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Pulut Panggang</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="KETAYAP.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Ketayap</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="KUIH KOSOI.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Kuih Kosoi</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="KUIH KOSOI PANDAN.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Kuih Kosoi Pandan</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="MOCHI (RED BEAN).png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mochi (Reb Bean)</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="MOCHI (PEANUT).png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Mochi (Peanut)</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="PATTAYA LAPIS.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Pattaya Lapis</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="KUIH LAPIS.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Kuih Lapis</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="SAGO LAPIS.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Sago Lapis</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="ROSE SAGO.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Rose Sago</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="KUIH TALAM.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Kuih Talam</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="SERI MUKA (GRN WHI).png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Seri Muka (Green White)</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="SERI MUKA (GRN BLU).png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Seri Muka (Green Blue)</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="SERI MUKA (YLW BLU).png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Seri Muka (Yellow Blue)</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="TAPIOCA CAKE.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Tapioca Cake</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="BINGKA UBI.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bingka Ubi</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="PULUT TAI-TAI.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Pulut Tai-tai</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="SERI MANJA.png"">
+                </div>
+                <div class="content">
+                    <h3>Seri Manja</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="LAPIS UBI.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Lapis Ubi</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="KUIH KACANG MERAH.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Kuih Kacang Merah</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="TALAM KELADI.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Talam Keladi</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="KUIH JAGUNG.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Kuih Jagung</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="ANGKU (M).png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Angku (Mini)</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="PANDAN KU (M).png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Pandan Ku (Mini)</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="YELLOW KU (M).png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Yellow Ku (Mini)</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="PURPLE KU (M).png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Purple Ku (Mini)</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="ANGKU (L).png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Angku (Large)</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="PANDAN KU (L).png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Pandan Ku (Large)</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="RICE PUDDLING.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Rice Puddling</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="YAM CAKE.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Yam Cake</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="MA LAI KO.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Ma Lai Ko</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="ONDE-ONDE.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Onde-onde</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="KAYA.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Kaya</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="PARTY SET A.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Party Set (Set A)</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="PARTY SET B.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Party Set (Set B)</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="PARTY SET C.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Party Set (Set C)</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="PARTY SET D.png" alt="">
+                </div>
+                <div class="content">
+                    <h3>Party Set (Set D)</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span> (50) </span>
+                    </div>
+                    <div class="price">RM40.00 <span>RM50.00</RM50></span> </div>
+                    <a href="#" class="btn">Add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- popular section ends -->
+
+    <!-- custom js file link -->
+    <script src="app.js"></script>
+
+</body>
+</html>
